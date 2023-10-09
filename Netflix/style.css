@@ -9,10 +9,11 @@ body {
   color: white;
   background-color: black;
 }
+
 :root {
   --color: #E50914;
   --lightColor: #e6e6e6;
-  --borderColor: rgb(35,35,35)
+  --borderColor: rgb(35, 35, 35)
 }
 
 header {
@@ -32,7 +33,7 @@ header {
   color: var(--color);
   font-weight: 800;
   font-size: 45px;
-  font-stretch:semi-condensed;
+  font-stretch: semi-condensed;
 }
 
 nav {
@@ -67,7 +68,7 @@ nav {
 #langauge {
   background-color: transparent;
   color: white;
-  height:  32px;
+  height: 32px;
   width: fit-content;
   font-weight: 500;
   font-size: 15px;
@@ -83,7 +84,7 @@ nav {
   align-items: center;
   text-align: center;
   padding: 205px 0px;
-  
+
 }
 
 #heading-info {
@@ -92,7 +93,8 @@ nav {
   font-family: "Martel Sans";
 }
 
-#sub-info, #email-info {
+#sub-info,
+#email-info {
   font-size: 22px;
   font-family: "Martel Sans";
   font-weight: 500;
@@ -115,7 +117,7 @@ nav {
   font-size: 15px;
 }
 
-input::placeholder{
+input::placeholder {
   color: white;
 }
 
@@ -182,7 +184,7 @@ main {
 #tv {
   width: 50%;
   /* width: 500px; */
-  
+
   position: relative;
   display: flex;
   flex-direction: column;
@@ -210,7 +212,7 @@ main {
   display: flex;
   height: 520px;
   width: 1000px;
-  /* width: 75.5%; */
+  /* width: 80%; */
 }
 
 #mobile {
@@ -283,3 +285,63 @@ main {
   font-size: 20px;
   line-height: 30px;
 }
+
+
+/* ========= section 3 ========== */
+
+#monitor-section {
+  display: flex;
+  height: 520px;
+  width: 1000px;
+  /* width: 75.5%; */
+  /* border: 1px solid red; */
+}
+
+#monitor-watch {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#monitor-watch-header {
+  font-weight: 1000;
+  font-size: 45px;
+  margin: 0px;
+}
+
+
+#monitor-watch-content {
+  font-weight: 500;
+  font-size: 22px;
+  margin: 0px;
+  line-height: 30px;
+}
+
+
+
+#monitor {
+  width: 52%;
+  /* width: 500px; */
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#monitor-img {
+  width: 520px;
+  z-index: 99;
+  position: absolute;
+}
+
+#monitor-container {
+  /* display: flex; */
+  width: 319px;
+  height: 366px;
+  overflow: hidden;
+}
+
+
