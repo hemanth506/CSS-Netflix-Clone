@@ -149,14 +149,17 @@ main {
   border-bottom: 8px solid var(--borderColor);
 }
 
+
+/* =========section 1========== */
+
 #tv-section {
   display: flex;
   height: 520px;
-  /* width: 1000px; */
-  width: 75.5%;
+  width: 1000px;
+  /* width: 75.5%; */
 }
 
-#content {
+#tv-section-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -198,4 +201,85 @@ main {
   z-index: 99;
   position: absolute;
   width: 500px;
+}
+
+
+/* ========= section 2 ========== */
+
+#mobile-section {
+  display: flex;
+  height: 520px;
+  width: 1000px;
+  /* width: 75.5%; */
+}
+
+#mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+#stranger-img {
+  width: 500px;
+}
+
+#mobile-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid rgb(65, 67, 68);
+  border-radius: 10px;
+  gap: 25px;
+  padding: 10px 12px;
+  position: absolute;
+  background-color: black;
+  top: 320px;
+}
+
+#mobile-inner-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+#stranger-book-img {
+  width: 55px;
+}
+
+#stranger-title {
+  font-size: 15px;
+  font-weight: 700;
+  margin: -3px;
+}
+
+#stranger-download {
+  color: #0071eb;
+  font-size: 14px;
+  margin: -3px;
+}
+
+#mobile-section-content {
+  width: 50%;
+  /* border: 1px solid #0071eb; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+#mobile-download-content {
+  font-weight: 1000;
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 55px;
+}
+
+#mobile-favourite-content {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
 }
