@@ -1,0 +1,201 @@
+* {
+  letter-spacing: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Martel Sans";
+  color: white;
+  background-color: black;
+}
+:root {
+  --color: #E50914;
+  --lightColor: #e6e6e6;
+  --borderColor: rgb(35,35,35)
+}
+
+header {
+  background-image: url("./assets/movie-grid.jpg");
+  /* background-attachment: fixed; */
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  box-shadow: 0px 0px 200px 120px inset;
+  border-bottom: 8px solid var(--borderColor);
+}
+
+#netflix {
+  display: inline;
+  color: var(--color);
+  font-weight: 800;
+  font-size: 45px;
+  font-stretch:semi-condensed;
+}
+
+nav {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 60px; */
+}
+
+
+#menu {
+  display: flex;
+  gap: 30px;
+}
+
+#signIn {
+  border-style: none;
+  background-color: var(--color);
+  color: white;
+  height: 32px;
+  width: 75px;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#signIn:hover {
+  cursor: pointer;
+}
+
+#langauge {
+  background-color: transparent;
+  color: white;
+  height:  32px;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 7px;
+  padding: 3px 13px;
+  border: 1px solid lightslategray;
+}
+
+#info {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 205px 0px;
+  
+}
+
+#heading-info {
+  font-weight: 900;
+  font-size: 45px;
+  font-family: "Martel Sans";
+}
+
+#sub-info, #email-info {
+  font-size: 22px;
+  font-family: "Martel Sans";
+  font-weight: 500;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#email-info {
+  margin-bottom: 15px;
+}
+
+#email {
+  width: 370px;
+  height: 55px;
+  background-color: rgba(8, 5, 5, 0.7);
+  border: 0.1px solid rgb(82, 83, 83);
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 25px 20px;
+  font-size: 15px;
+}
+
+input::placeholder{
+  color: white;
+}
+
+#get-started {
+  width: 200px;
+  height: 55px;
+  font-size: 20px;
+  border-style: none;
+  font-weight: 700;
+  box-sizing: border-box;
+  background-color: var(--color);
+  color: white;
+  border-radius: 5px;
+  font-stretch: expanded;
+}
+
+#get-started:hover {
+  cursor: pointer;
+}
+
+
+/* =================================== main ===================================== */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.border {
+  width: 100%;
+  border-bottom: 8px solid var(--borderColor);
+}
+
+#tv-section {
+  display: flex;
+  height: 520px;
+  /* width: 1000px; */
+  width: 75.5%;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 50%;
+  /* width: 500px; */
+}
+
+#tv-header {
+  font-weight: 1000;
+  font-size: 50px;
+  font-family: "Martel Sans";
+}
+
+#tv-content {
+  font-weight: 600;
+  font-size: 21.5px;
+}
+
+#tv {
+  width: 50%;
+  /* width: 500px; */
+  
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#video-container {
+  display: flex;
+  width: 370px;
+  height: 220px;
+  overflow: hidden;
+}
+
+#tv-img {
+  z-index: 99;
+  position: absolute;
+  width: 500px;
+}
