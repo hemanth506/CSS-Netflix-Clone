@@ -345,3 +345,40 @@ main {
 }
 
 
+/* ========= section 4 ========== */
+
+#children-section {
+  display: flex;
+  height: 520px;
+  width: 1000px;
+}
+#children {
+  display: flex;
+  align-items: center;
+}
+
+#children-img {
+  width: 520px;
+  height: min-content;
+}
+
+
+#children-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#children-profile-content {
+  font-weight: 1000;
+  font-size: 45px;
+  margin: 0px;
+  line-height: 60px;
+}
+
+#children-content {
+  font-weight: 600;
+  font-size: 23px;
+  margin: 0px;
+  line-height: 30px;
+}
