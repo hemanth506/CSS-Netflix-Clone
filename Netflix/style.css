@@ -717,7 +717,8 @@ li>a {
   }
 
   #children-content {
-    font-size: 18px;
+    width: 90%;
+    font-size: 17px;
     line-height: 23px;
   }
 
@@ -728,6 +729,43 @@ li>a {
 
   #children-img {
     width: 90%;
+  }
+
+  /* ===========question section=========== */
+
+  #frequent-questions {
+    font-size: 29px;
+  }
+
+  .question-list {
+    width: 80%;
+    margin: 0px 0px;
+  }
+
+  #questions-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #question-email {
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  #email-para {
+    width: 80%;
+    font-size: 17px;
+  }
+
+  #email-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
   }
 }
 
