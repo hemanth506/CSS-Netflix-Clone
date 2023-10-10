@@ -767,6 +767,11 @@ li>a {
     align-items: center;
     gap: 18px;
   }
+
+  /* =============footer=============== */
+  #footer-ul {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 
