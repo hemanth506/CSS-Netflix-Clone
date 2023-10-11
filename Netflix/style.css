@@ -727,8 +727,8 @@ body {
 
   #monitor-section {
     display: flex;
-    height: 520px;
-    width: 1000px;
+    /* height: 520px;
+    width: 1000px; */
     /* width: 75.5%; */
     /* border: 1px solid red; */
   }
@@ -742,13 +742,13 @@ body {
 
   #monitor-watch-header {
     font-weight: 1000;
-    font-size: 45px;
+    font-size: 4.5vw;
     margin: 0px;
   }
 
   #monitor-watch-content {
-    font-weight: 500;
-    font-size: 22px;
+    font-weight: 600;
+    font-size: 1.8vw;
     margin: 0px;
     line-height: 30px;
   }
