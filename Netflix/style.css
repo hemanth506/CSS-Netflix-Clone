@@ -588,7 +588,7 @@ body {
   }
 
   .section-top {
-    min-height: 580px;
+    height: 66vh;
     /* height: 720px; */
   }
 
