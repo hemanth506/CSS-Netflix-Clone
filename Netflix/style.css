@@ -343,16 +343,16 @@ body {
   }
 
   #monitor-watch-header {
-    font-size: 35px;
+    font-size: 33px;
     font-weight: 1000;
     margin: 0px;
   }
 
   #monitor-watch-content {
     font-weight: 500;
-    font-size: 17px;
+    font-size: 18px;
     margin: 0px;
-    line-height: 25px;
+    line-height: 23px;
   }
 
   #monitor {
@@ -372,16 +372,19 @@ body {
   }
 
   #monitor-img {
-    width: 90%;
+    width: 70vw;
     z-index: 99;
     position: absolute;
   }
 
   #monitor-container {
-    width: 55%;
-    height: 75%;
-    /* margin-top: 25px; */
+    width: 45vw;
+    height: 30vw;
+    margin-top: 40px;
     overflow: hidden;
+    margin-bottom: 20vw;
+    /* margin-left: 70px; */
+    /* top: 30px; */
   }
 
   /* ========= children section ========== */
