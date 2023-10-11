@@ -789,8 +789,6 @@ body {
 
   #children-section {
     display: flex;
-    height: 520px;
-    width: 1000px;
   }
 
   #children {
@@ -800,26 +798,25 @@ body {
 
   #children-img {
     width: 520px;
-    height: min-content;
   }
 
   #children-section-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    gap: 13px;
   }
 
   #children-profile-content {
     font-weight: 1000;
-    font-size: 45px;
+    font-size: 3.5vw;
     margin: 0px;
     line-height: 60px;
   }
 
   #children-content {
-    font-weight: 600;
-    font-size: 23px;
+    font-weight: 500;
+    font-size: 1.9vw;
     margin: 0px;
     line-height: 30px;
   }
