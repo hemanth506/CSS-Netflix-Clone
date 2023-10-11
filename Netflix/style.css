@@ -589,6 +589,7 @@ body {
 
   .section-top {
     height: 66vh;
+    width: 95%;
     /* height: 720px; */
   }
 
@@ -596,7 +597,6 @@ body {
 
   #tv-section {
     display: flex;
-    width: 95%;
   }
 
   #tv-section-content, #tv {
@@ -648,9 +648,6 @@ body {
 
   #mobile-section {
     display: flex;
-    height: 520px;
-    width: 1000px;
-    /* width: 80%; */
   }
 
   #mobile {
@@ -658,18 +655,16 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 45%;
     position: relative;
-    /* border: 1px solid red; */
   }
 
   #stranger-img {
-    width: 500px;
+    width: 100%;
   }
 
   #mobile-inner {
     display: flex;
-    flex-direction: row;
     align-items: center;
     border: 2px solid rgb(65, 67, 68);
     border-radius: 10px;
@@ -677,7 +672,8 @@ body {
     padding: 10px 12px;
     position: absolute;
     background-color: black;
-    top: 320px;
+    bottom: 18%;
+    width: 50%;
   }
 
   #mobile-inner-content {
@@ -687,19 +683,19 @@ body {
   }
 
   #stranger-book-img {
-    width: 55px;
+    width: 14%;
   }
 
   #stranger-title {
-    font-size: 15px;
+    font-size: 1.2vw;
     font-weight: 700;
-    margin: -3px;
+    margin: -3px 0px;
   }
 
   #stranger-download {
     color: #0071eb;
-    font-size: 14px;
-    margin: -3px;
+    font-size: 1vw;
+    margin: -3px 0px;
   }
 
   #mobile-section-content {
