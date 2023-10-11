@@ -246,14 +246,13 @@ body {
     width: 100%;
     height: 100%;
     margin: 80px 0px;
+    position: relative;
   }
 
   #mobile-section-content {
     width: 80%;
-    /* border: 1px solid #0071eb; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     text-align: center;
     gap: 8px;
   }
@@ -261,7 +260,6 @@ body {
   #stranger-title {
     font-size: 15px;
     font-weight: 700;
-    /* margin: -3px; */
   }
 
   #mobile {
@@ -272,55 +270,73 @@ body {
   }
 
   #stranger-img {
-    width: 90%;
+    max-width: 90%;
   }
 
   #mobile-download-content {
     font-weight: 800;
-    font-size: 30px;
+    font-size: 33px;
     line-height: 40px;
     margin: 0;
   }
 
   #mobile-favourite-content {
     font-weight: 600;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 20px;
     margin: 0;
   }
 
   #mobile-inner {
-    top: 75%;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(65, 67, 68);
+    border-radius: 10px;
+    padding: 0.8vw 1.5vw;
+    position: absolute;
+    background-color: black;
+    width: 40vw;
+    top: 50vh;
     box-shadow: 0px 8px 20px 1px black;
+    /* margin */
   }
 
   #stranger-book-img {
-    width: 30px;
+    width: 6vw;
+    height: 100%;
   }
 
   #stranger-title {
     font-size: 14px;
+    margin: 0;
+    padding: 0;
   }
 
   #stranger-download {
+    color: #0071eb;
     font-size: 12px;
+    margin: 0;
+    padding: 0;
   }
 
   /* =========monitor-section============ */
 
   #monitor-section {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 100%;
+    height: 100%;
     margin: 20px 0px;
   }
 
   #monitor-watch {
     width: 90%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 30px 0px;
@@ -328,6 +344,8 @@ body {
 
   #monitor-watch-header {
     font-size: 35px;
+    font-weight: 1000;
+    margin: 0px;
   }
 
   #monitor-watch-content {
@@ -339,24 +357,32 @@ body {
 
   #monitor {
     /* width: 100%; */
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: initial;
+    justify-content: center;
+  }
+
+  #monitor-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   #monitor-img {
     width: 90%;
+    z-index: 99;
+    position: absolute;
   }
 
   #monitor-container {
     width: 55%;
     height: 75%;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     overflow: hidden;
   }
-
-  /* #monitor-video {
-    width: 70%;
-  } */
 
   /* ========= children section ========== */
   #children-section {
@@ -439,6 +465,17 @@ body {
 @media screen and (max-width: 680px) {
   #tv-video {
     margin-top: 11vw;
+  }
+}
+
+@media screen and (min-width:700px) and (max-width: 956px){
+  #mobile-inner {
+    width: 320px;
+    top: 480px;
+  }
+
+  #stranger-book-img {
+    width: 45px;
   }
 }
 
