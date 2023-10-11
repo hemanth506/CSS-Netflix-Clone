@@ -824,7 +824,11 @@ body {
   /* ========= section 5 ========== */
 
   #questions-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 80px 0px;
+    width: 100%;
   }
 
   #frequent-questions {
@@ -834,19 +838,65 @@ body {
     text-align: center;
   }
 
-  .question-list {
+  #questions-tab {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    width: 950px;
-    /* border: 1px solid red; */
+    width: 100%;
+  }
+
+  .question-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .question-button {
+    width: 90%;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 0px 20px;
     margin: 10px 0px;
+    
     font-size: 20px;
-    font-weight: 700;
-    background-color: rgb(63, 61, 61);
+    font-weight: 600;
+    color: white;
+    font-family: "Martel Sans";
+    background-color: rgb(56, 56, 56);
+    border: none;
+    cursor: pointer;
   }
+
+  .answer-tab {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    font-family: "Martel Sans";
+    background-color: rgb(56, 56, 56);
+    display: none;
+    /* visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 1s linear; */
+  }
+
+  .answer {
+    padding: 0px 20px;
+  }
+
+  .question-button:active {
+    background-color: rgb(75, 75, 75);
+  }
+
+  /* .question-button:focus + .answer-tab {
+    visibility: visible;
+  opacity: 1;
+  } */
 
   .question-list:hover {
     cursor: pointer;
@@ -861,6 +911,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  #email-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
 
   #email-para {
