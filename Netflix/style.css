@@ -17,7 +17,7 @@ body {
   --borderColor: rgb(35, 35, 35)
 }
 
-/* For mobile and tablets */
+/* For mobile */
 @media screen and (max-width: 956px) {
   header {
     background-image: url("./assets/movie-grid.jpg");
@@ -156,7 +156,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
   }
 
   .border {
@@ -164,88 +163,78 @@ body {
     border-bottom: 8px solid var(--borderColor);
   }
 
-  /* section {
-    height: 720px;
-  } */
+  /* need to check height */
+  .section-top { 
+    /* height: 100vw; */
+    /* max-height: 80vh; */
+    width: 100%;
+  }
+
 
   /* =========tv-section============ */
   #tv-section {
-    width: 100%;
-    height: 840px;
-    /* margin-bottom: 20px; */
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* position: relative; */
-  }
-
-  #tv-section-content {
-    width: 75%;
-    height: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    /* margin: 35px 0px; */
-    /* margin-bottom: 10%; */
+  }
+
+  #tv-section-content {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
   }
 
 
   #tv-header {
-    font-weight: 700;
-    font-size: 48px;
-    text-align: center;
+    font-weight: 900;
+    font-size: 33px;
     margin: 0;
     padding: 0;
   }
 
   #tv-content {
-    font-size: 20px;
+    font-size: 18px;
     align-content: center;
     text-align: center;
+    margin: 0;
+    line-height: 30px;
   }
 
   #tv {
-    /* width: 100%; */
-    height: 40%;
-
     display: flex;
-    /* flex-direction: column; */
-    /* align-items: center; */
+    flex-direction: column;
     justify-content: center;
-    /* margin-bottom: 20px; */
   }
 
   #tv-div {
     position: relative;
     display: inline-flex;
-    /* flex-direction: row; */
     justify-content: center;
+    margin-bottom: 28vw;
   }
-
-  /* #tv-video {
-    
-  } */
-
-  #video-container {
-    /* width: 250px;
-    height: 180px; */
-    display: flex;
-    width: 50vw;
-    justify-content: center;
-    align-items: center;
-    /* width: 100%; */
-    /* height: 210px; */
-    /* overflow: hidden; */
-  }
-
 
   #tv-img {
-    width: 70vw;
+    max-width: 88vw;
     z-index: 99;
     position: absolute;
   }
+
+  #video-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  #tv-video {
+    margin-top: 11vh;
+    max-width: 65vw;
+    max-height: 38vh;
+  }
+
+
+  
 
   /* =========mobile-section============ */
 
@@ -447,8 +436,14 @@ body {
   }
 }
 
+@media screen and (max-width: 680px) {
+  #tv-video {
+    margin-top: 11vw;
+  }
+}
 
-/* For laptops and desktop */
+
+/* For tablets and small laptops */
 @media screen and (min-width: 957px) and (max-width: 1279px){
   header {
     background-image: url("./assets/movie-grid.jpg");
